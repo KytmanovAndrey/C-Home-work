@@ -5,6 +5,7 @@
 Console.WriteLine("Введите число ");
 int a = int.Parse(Console.ReadLine());
 int b = 2;
+
 if (a>=b) 
 {
     Console.Write(b);
@@ -24,3 +25,19 @@ if (a-1<b)
     Console.Write(", " + b);
 }
 }
+
+// Console.WriteLine("Введите число ");
+// int a = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Четные числа в промежутке 1 до {0}:", a);
+
+// for (int i = 2; i<a; i+=2)
+// {
+//     Console.Write(i+ ", ");
+// }
+// for (int i = 0; i>a; i-=2)
+// {
+//     Console.Write(i+ ", ");
+// }
+// if (a!=1)
+// Console.WriteLine(a);
