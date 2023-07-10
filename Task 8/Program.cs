@@ -26,6 +26,7 @@ if (a-1<b)
 }
 }
 
+// Второе решение
 // Console.WriteLine("Введите число ");
 // int a = int.Parse(Console.ReadLine());
 
