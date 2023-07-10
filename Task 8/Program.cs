@@ -41,5 +41,3 @@ if (a-1<b)
 // }
 // if (a!=1)
 // Console.WriteLine(a);
-
-int[] array = new int[10];
