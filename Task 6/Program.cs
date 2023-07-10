@@ -8,9 +8,9 @@ int a = int.Parse(Console.ReadLine());
 a = Math.Abs(a);
 if (a % 2 == 1)
 {
-    Console.Write("нет, число нечетное");
+    Console.Write(a + " -> нет");
 }
 if (a % 2 == 0)
 {
-    Console.Write("да, число четное");
+    Console.Write(a + " -> да ");
 }

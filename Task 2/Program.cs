@@ -20,4 +20,4 @@ if (b > max)
     max = b;
     min = a;
 }
-Console.Write("max = " + max + "; min = " + min);
+Console.Write($"a = {a} b = {b} - > max = " + max + "; min = " + min);

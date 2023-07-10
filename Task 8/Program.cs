@@ -8,7 +8,7 @@ int b = 2;
 
 if (a>=b) 
 {
-    Console.Write(b);
+    Console.Write(a + " -> " + b);
     while(a-2>=b)
 {
     b = b + 2;
@@ -18,7 +18,7 @@ if (a>=b)
 b = 0;
 if (a-1<b)
 {
-    Console.Write(b);
+    Console.Write(a + " -> " + b);
     while(a+1<b)
 {
     b = b - 2;
@@ -41,3 +41,5 @@ if (a-1<b)
 // }
 // if (a!=1)
 // Console.WriteLine(a);
+
+int[] array = new int[10];
